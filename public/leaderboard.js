@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 
-const API_SKINS_ENDPOINT = "http://localhost/v1/api/skins";
+const API_SKINS_ENDPOINT = "https://bestvandal.herokuapp.com/v1/api/skins";
 
 var skins = [];
 

@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+body {
+    background-color: #404040;
+}
+
+.skin {
+    height: 120px;
+    width: 360px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.center {
+	display: flex;
+	min-height: 95vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+.leaderboard-item {
+    background-color: #71797E;
+    border: 2px solid black;
+    height: 75px;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.img > img {
+    height: 70px;
+    width: 260px;
+}
+
+.number {
+    margin-right: 50px;
+    float: left;
+    display: inline;
+}
+
+.displayName {
+    height:100%;
+    display:flex;
+    align-items:center;
+    padding:0 10px;
+    width: 380px;
+}
+
+.points {
+    display: inline;
+    background-color:blue;
+    height:100%;
+    display:flex;
+    align-items:center;
+    padding:0 10px;
+}
+

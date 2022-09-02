@@ -63,3 +63,9 @@ p {
     padding:0 10px;
 }
 
+/* better item widths for phones */
+@media (max-width: 767px) { 
+    .leaderboard-item {
+        width: 275%;
+    }
+}
